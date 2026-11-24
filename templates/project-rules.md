@@ -17,6 +17,7 @@
 - 普通“更新 memory”或已授权工作的稳定变化：`close-session`，局部替换旧状态及相关索引；没有稳定变化不写。
 - 明确要求整理、压缩、周期维护或已授权的相应框架升级：`rebalance-memory`。普通回填不扩大成全局重排。
 - research profile 才安装：`plan-experiment`、`review-experiment`、`run-experiment`、`diagnose-training`、`run-minimal-train`、`modify-backbone`、`add-literature`；分别负责实验设计、审查记录、执行恢复、异常诊断、最小验证、模型链路修改与文献综合。未安装时不假定它们可用。
+- 构思或发展研究 idea：`brainstorm-ideas`；基于最接近工作检查方法新颖性：`check-method-novelty`。两者均属于 research profile，不自动写入记忆或执行实验。
 
 ### 记忆职责
 

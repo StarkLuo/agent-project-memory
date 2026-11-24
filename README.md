@@ -149,6 +149,8 @@ legacy/ 暂时不能删，有些逻辑可能还在使用。outputs/ 是已有运
 | 你正在做什么 | 相关流程 | 应保留什么，何时保留 |
 | --- | --- | --- |
 | 一般实现、修复完成 | `close-session` | 本轮已授权工作产生的入口变化、验证范围、阻塞与下一步，局部回填 |
+| 构思或发展研究 idea | `brainstorm-ideas` | 从可探索的线索出发，寻找有意义的差异、改进或新叙事；不以绝对原创为门槛 |
+| 检查方法新颖性 | `check-method-novelty` | 核对最接近论文的真实机制和证据，区分表面相似与实质重复，给出有界主张 |
 | 调研论文、比较研究路线 | 形成可复用结论后使用 `add-literature` | 在已授权记录范围内按主题保存来源、结论、分歧、适用条件；单纯读论文不自动写入 |
 | 分析实验结果 | `review-experiment` | 先判断运行是否有效、比较是否公平、证据支持到哪一层；需要记录且有授权时写台账 |
 | 规划实验或消融 | `plan-experiment` | 假设、固定项、预算与停止条件；计划不能写成已运行、已取得收益 |
@@ -280,7 +282,7 @@ legacy/ 暂时不能删，有些逻辑可能还在使用。outputs/ 是已有运
 | 配置 | Skills | 用途 |
 | --- | --- | --- |
 | core（4 个） | initialize-memory、start-new-session、close-session、rebalance-memory | 初始化、接手、局部回填、明确授权的整理 |
-| research（共 11 个） | core + plan-experiment、review-experiment、run-experiment、diagnose-training、run-minimal-train、modify-backbone、add-literature | 实验设计、执行、证据审查、训练与文献流程 |
+| research（共 13 个） | core + plan-experiment、review-experiment、run-experiment、diagnose-training、run-minimal-train、modify-backbone、add-literature、brainstorm-ideas、check-method-novelty | 实验设计、执行、证据审查、训练、文献、构思与新颖性核对 |
 
 research 源自研究工程，但不包含任何具体模型、数据集、私有路径或实验结果。`modify-backbone` 的不变量来自目标工程知识，不把原工程的维度或训练策略外推。
 

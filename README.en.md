@@ -102,6 +102,8 @@ For authorized implementation work, `close-session` can record stable changes lo
 
 | Activity | Workflow | Recording boundary |
 | --- | --- | --- |
+| Research idea generation or refinement | `brainstorm-ideas` | Start from a promising lead and identify meaningful differences, improvements, or a clearer research story; absolute originality is not a prerequisite |
+| Method novelty assessment | `check-method-novelty` | Inspect the mechanisms and evidence in the closest papers, separate resemblance from substantive overlap, and state an evidence-bounded claim |
 | Literature or route comparison | `add-literature` once reusable conclusions exist | Record authorized topic-level synthesis with sources, disagreements, and limits; reading alone does not trigger writing |
 | Experiment analysis | `review-experiment` | Separate run validity, comparison fairness, observed effects, and mechanism evidence; record when authorized |
 | Experiment planning | `plan-experiment` | Define hypotheses, invariants, budget, and stopping conditions; a plan is not a completed run |
